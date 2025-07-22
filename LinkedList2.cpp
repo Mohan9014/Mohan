@@ -6,7 +6,7 @@ struct node{
 };
 node * head =NULL;
 
-void insertStart (int num){
+void insertEnd (int num){
     node * newNode=new node();
     newNode->data=num;
     newNode->next=NULL;
@@ -23,12 +23,12 @@ else{
     cout<<num<<" inserted"<<endl;
 }
 }
-void insertEnd(int num){
+void inserStart(int num){
 }
 int main(){
         insertEnd(10);
         insertEnd(20);
         insertEnd(30);
         insertEnd(40);
-        insertStart(50);
+        //insertStart(50);
 }
